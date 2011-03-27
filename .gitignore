@@ -1,0 +1,7 @@
+_build
+setup.data
+setup.log
+src/config.*
+*.ba*
+react-api.docdir
+_darcs

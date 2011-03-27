@@ -1,0 +1,54 @@
+OASISFormat: 0.2
+Name:        React
+Version:     0.9.2+dev
+Synopsis:    Applicative events and signals for OCaml
+Authors:     Daniel C. Bünzli <i@erratique.ch>
+License:     BSD3
+LicenseFile: LICENCE
+Plugins:     DevFiles (0.2), META (0.2), StdFiles (0.2)
+Homepage:    http://erratique.ch/software/react
+BuildTools: ocamlbuild
+
+Library react
+  Path:            src
+  BuildTools:      ocamlbuild
+  Modules:         React
+
+Executable test_main
+  Path: test/
+  Install: false
+  CompiledObject: best
+  MainIs: test.ml
+  BuildDepends: react
+
+Executable test_breakout
+  Path: test/
+  Install: false
+  CompiledObject: best
+  MainIs: breakout.ml
+  BuildDepends: unix, react
+
+Executable test_clock
+  Path: test/
+  Install: false
+  CompiledObject: best
+  MainIs: clock.ml
+  BuildDepends: unix, react
+
+Document "react-api"
+  Title: API reference for react
+  Type: ocamlbuild (0.2)
+  Install: true
+  InstallDir: $htmldir/api
+  BuildTools: ocamldoc
+  XOCamlbuildPath: src
+  XOCamlbuildLibraries: react
+
+Test main
+  Command: $test_main
+
+SourceRepository github
+  Type:     git
+  Location: git://github.com/camlunity/ocaml-react.git
+  Browser:  https://github.com/camlunity/ocaml-react
+

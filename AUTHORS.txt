@@ -1,0 +1,5 @@
+(* OASIS_START *)
+(* DO NOT EDIT (digest: 526b3b49f820a48abc84904eb579a513) *)
+Authors of React
+Daniel C. Bünzli <i@erratique.ch>
+(* OASIS_STOP *)
