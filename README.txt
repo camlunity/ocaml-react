@@ -5,7 +5,7 @@ This is the README file for the React distribution.
 Applicative events and signals for OCaml
 
 See the files INSTALL.txt for building and installation instructions. See the
-file LICENCE for copying conditions.
+file LICENCE for copying conditions. 
 
 Home page: http://erratique.ch/software/react
 
