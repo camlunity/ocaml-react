@@ -2,7 +2,7 @@ OASISFormat: 0.2
 Name:        React
 Version:     0.9.2+dev
 Synopsis:    Applicative events and signals for OCaml
-Authors:     Daniel C. Bünzli <i@erratique.ch>
+Authors:     Daniel C. Bünzli <daniel.buenzli@erratique.ch>
 License:     BSD3
 LicenseFile: LICENCE
 Plugins:     DevFiles (0.2), META (0.2), StdFiles (0.2)
