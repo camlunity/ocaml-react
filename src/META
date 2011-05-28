@@ -1,6 +1,9 @@
-version = "%%VERSION%%"
-description = "%%SHORTDESCRIPTION%%"
-archive(byte) = "%%PROJECTNAME%%.cmo"
-archive(native) = "%%PROJECTNAME%%.cmx"
-archive(plugin,native) = "%%PROJECTNAME%%.cmxs"
-directory = "+%%PROJECTNAME%%"
+# OASIS_START
+# DO NOT EDIT (digest: 3a5ab7bcc8e2b58cd4651a1742e133c1)
+version = "0.9.2+dev"
+description = "Applicative events and signals for OCaml"
+archive(byte) = "react.cma"
+archive(native) = "react.cmxa"
+exists_if = "react.cma"
+# OASIS_STOP
+
